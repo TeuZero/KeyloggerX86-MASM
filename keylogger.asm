@@ -14,7 +14,7 @@ includelib user32.lib
 
 .data
 
-log db "C:\Users\c0d3_\Desktop\ShellcodeMsgBox\oi.txt",0
+log db "C:\oi.txt",0
 buffer db 100h dup (?)
 bytes_escritos dd 0
 
